@@ -44,7 +44,7 @@ public final class ConcurrentGUI extends JFrame {
         panel.add(buttonDown);
         panel.add(buttonStop);
         this.setVisible(true);
-        // Starting agents.
+        // Starting agent.
         final Agent agent = new Agent();
         new Thread(agent).start();
         buttonUp.addActionListener(new ActionListener() {
